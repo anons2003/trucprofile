@@ -13,7 +13,7 @@ html {
 .hide audio{
     display: none;
 }
-:root {
+/* :root {
        --white-color: #fff;
     --bg-main: #e3edf7;
     --bg-dark: #303234;
@@ -38,6 +38,32 @@ html {
     --icon-github: #333;
     --icon-youtube: #FF0000;
     --icon-tiktok: #000;
+} */
+:root {
+    --white-color: #31344b;
+    --bg-main:  #303234;
+    --bg-dark: #e3edf7;
+    --primary-color: #fff;
+    --text-color: #B0B3B8;
+    --text-color-dark: #777777;
+    --blue-color: #1877f2;
+    --blue-color-2: #e9f5ff; 
+    --outer-shadow-dark: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    --outer-shadow-dark-o: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7), inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+       inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7)
+       ;
+    --outer-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
+    --outer-shadow-o: 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.1), inset 6px 6px 10px -1px rgba(0, 0, 0, 0.3),
+       inset -6px -6px 10px -1px rgba(255, 255, 255, 0.1);
+    --icon-fb: #4267B2;
+    --icon-insta: #FB3958;
+    --icon-github: #fff;
+    --icon-youtube: #FF0000;
+    --icon-tiktok: #fff;
 }
 .app {
     width: 100%;
