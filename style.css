@@ -257,13 +257,13 @@ html {
 }
 
 .card__item:hover {
-    box-shadow: var(--outer-shadow-dark-o);
+    box-shadow: var(--outer-shadow-o);
 }
 
 
 
 .app.dark .card__item:hover {
-    box-shadow: var(--outer-shadow-dark-o);
+    box-shadow: var(--outer-shadow-o);
 }
 
 .card__link {
